@@ -1,0 +1,22 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.practicaltest.activities.MainActivity">
+    <item
+        android:id="@+id/action_a2z"
+        android:orderInCategory="100"
+        android:title="By name A to Z"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/action_l2h"
+        android:orderInCategory="100"
+        android:title="By Price low to High"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/action_cat"
+        android:orderInCategory="100"
+        android:title="By Categoty"
+        app:showAsAction="never" />
+</menu>
